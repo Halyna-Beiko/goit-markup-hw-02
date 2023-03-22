@@ -20,9 +20,10 @@ background-color: var(--main-backgroud-color)
 .title {
     font-size: 36px;
     line-height: 1.11;
-        text-align: center;
+    text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    color:var(--accent-color)
 }
 
 .link {
@@ -83,7 +84,7 @@ background-color: var(--main-backgroud-color)
 .header-nav {}
 
 .logo {
-        font-family: 'Raleway';
+        font-family: 'Raleway', sans-serif;
         font-weight: 800;
         font-size: 18px;
         line-height: 1.17;
@@ -110,11 +111,13 @@ color: var(--accent-color);
     color: var(--pressed-color);
 }
 
-.address {
+.address .address-list{
     font-style: normal;
     font-weight: 400;
     text-decoration: none
 }
+
+.address-item {}
 
 .address-mail, .address-tel 
 {color: var(--text-color);}
@@ -146,18 +149,6 @@ color: var(--accent-color);
 /*-------------------------Feauters-------------------------*/
 
 .features{}
-
-.hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;}
 
 .features-list {}
 
@@ -205,9 +196,6 @@ color: var(--accent-color);
 
 .logo {}
 
-.footer.color-web {
-    color:var(--primary-brand-color);
-}
 
 .footer .color-studio {
     color: var(--additional-color);
