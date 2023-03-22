@@ -114,7 +114,7 @@ color: var(--accent-color);
 .address {
     font-style: normal;
     font-weight: 400;
-    text-decoration: none
+    text-decoration: none;
 }
 
 .address-list {}
@@ -207,3 +207,31 @@ color: var(--accent-color);
     color: var(--additional-color);
 }
 
+
+/*-------------------------Portfolio-------------------------*/
+
+.portfolio {}
+
+
+/*-----------Portfolio - Functional/*-----------*/
+
+.portfolio-functional-list {}
+
+.portfolio-functional-item {}
+
+.portfolio-functional-btn {}
+
+
+/*-------------------------Portfolio-------------------------*/
+
+.portfolio-list {}
+
+.portfolio-item {}
+
+.portfolio-link {}
+
+.portfolio-pic {}
+
+.portfolio-title {}
+
+.portfolio-text {}
