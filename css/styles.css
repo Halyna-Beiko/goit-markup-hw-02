@@ -11,10 +11,11 @@
     --additional-color: #F4F4FD;
 }
 
-body 
-{font-family: 'Roboto', sans-serif;
-color: var(--accent-color);
-background-color: var(--main-backgroud-color)}
+body {
+font-family: 'Roboto', sans-serif;
+color: var(--text-color);
+background-color: var(--main-backgroud-color)
+}
 
 .title {
     font-size: 36px;
@@ -32,6 +33,7 @@ background-color: var(--main-backgroud-color)}
 {color: var(--pressed-color)}
 
 .btn {
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -89,11 +91,9 @@ background-color: var(--main-backgroud-color)}
         align-items: center;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-    }
-
-.color-web {
         color: var(--primary-brand-color);
     }
+
 
 .color-studio {
 color: var(--accent-color);
