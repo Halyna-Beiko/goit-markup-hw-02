@@ -2,7 +2,7 @@
     --main-backgroud-color: #ffffff;
     --hero-background-color: #2E2F42;
     --modal-backgroud-color: #F4F4FD;
-    --main-btn-backgroudcolor: #E7E9FC;
+    --main-btn-backgroudcolor: #F4F4FD;
     --primary-brand-color: #4D5AE5;
     --pressed-color: #404BBF;
     --accent-color: #2E2F42;
@@ -114,11 +114,13 @@ body {
     color: var(--pressed-color);
 }
 
-.address .address-list {
+.address {
     font-style: normal;
     font-weight: 400;
     text-decoration: none
 }
+
+.address-list {}
 
 .address-item {}
 

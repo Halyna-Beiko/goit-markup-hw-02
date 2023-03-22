@@ -111,11 +111,13 @@ color: var(--accent-color);
     color: var(--pressed-color);
 }
 
-.address .address-list{
+.address {
     font-style: normal;
     font-weight: 400;
     text-decoration: none
 }
+
+.address-list {}
 
 .address-item {}
 
