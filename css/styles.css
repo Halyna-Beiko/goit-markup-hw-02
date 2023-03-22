@@ -121,15 +121,12 @@ color: var(--accent-color);
 
 .address-item {}
 
-.address-mail, .address-tel 
+.address-contact 
 {color: var(--text-color);}
 
-.address-mail:is(:hover, :focus) {
+.address-contact:is(:hover, :focus) {
     color: var(--pressed-color);}
 
-.address-tel:is(:hover, :focus) {
-    color: var(--pressed-color);
-}
 
 /*-------------------------HERO-------------------------*/
 
