@@ -2,7 +2,7 @@
     --main-backgroud-color: #ffffff;
     --hero-background-color: #2E2F42;
     --modal-backgroud-color: #F4F4FD;
-    --main-btn-backgroudcolor: #E7E9FC;
+    --main-btn-backgroudcolor: #F4F4FD;
     --primary-brand-color: #4D5AE5;
     --pressed-color: #404BBF;
     --accent-color:#2E2F42;
@@ -42,6 +42,8 @@ background-color: var(--main-backgroud-color)
     align-items: center;
     letter-spacing: 0.04em;
     cursor: pointer;
+    color:var(--primary-brand-color);
+    background-color: var(--main-btn-backgroudcolor);
 }
 
 .btn:is(:hover, :focus){
